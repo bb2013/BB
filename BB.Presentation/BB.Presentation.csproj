@@ -864,12 +864,18 @@
     <Content Include="Scripts\i18n\angular-locale_zh.js" />
     <Content Include="Scripts\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
-    <Content Include="Views\Admin\CMS\leftPanel\addPages\Page.html" />
-    <Content Include="Views\Admin\CMS\leftPanel\addPages\PageController.js" />
+    <Content Include="Views\Admin\CMS\bodyPanel\bodyPanelIndex.html" />
+    <Content Include="Views\Admin\CMS\bodyPanel\bodyPanelIndexController.js" />
+    <Content Include="Views\Admin\CMS\bodyPanel\leftPanel\LeftPanelIndex.html" />
+    <Content Include="Views\Admin\CMS\bodyPanel\leftPanel\LeftPanelIndexController.js" />
+    <Content Include="Views\Admin\CMS\bodyPanel\leftPanel\Pages\Page.html" />
+    <Content Include="Views\Admin\CMS\bodyPanel\leftPanel\Pages\PageController.js" />
+    <Content Include="Views\Admin\CMS\bodyPanel\rightPanel\RightPanelIndex.html" />
+    <Content Include="Views\Admin\CMS\bodyPanel\rightPanel\RightPanelIndexController.js" />
     <Content Include="Views\Admin\CMS\MainPanel.html" />
     <Content Include="Views\Admin\CMS\MainPanelController.js" />
-    <Content Include="Views\Admin\CMS\leftPanel\addPages\options\AddPage.html" />
-    <Content Include="Views\Admin\CMS\leftPanel\addPages\options\AddPageController.js" />
+    <Content Include="Views\Admin\CMS\bodyPanel\leftPanel\Pages\options\AddPage.html" />
+    <Content Include="Views\Admin\CMS\bodyPanel\leftPanel\Pages\options\AddPageController.js" />
     <Content Include="Views\Shared\Account\CreateAccount.html" />
     <Content Include="Views\Shared\Account\CreateAccountController.js" />
     <Content Include="Views\Shared\Account\ForgotPassword.html" />
@@ -928,8 +934,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Admin\CMS\bodyPanel\" />
-    <Folder Include="Views\Admin\CMS\rightPanel\" />
     <Folder Include="Views\Admin\Commerce\" />
   </ItemGroup>
   <ItemGroup>
