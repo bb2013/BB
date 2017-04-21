@@ -12,8 +12,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
 
                 // the child views will be defined here (absolutely named)
                 'leftPanel@cms': {
-                    templateUrl: '/Views/Admin/CMS/bodyPanel/leftPanel/LeftPanelIndex.html',
-                    controller: 'scotchController4'
+                    templateUrl: '/Views/Admin/CMS/bodyPanel/leftPanel/LeftPanelIndex.html'
                 },
 
                 // for column two, we'll define a separate controller 
@@ -26,7 +25,6 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
 });
 
 routerApp.controller('scotchController4', function ($scope) {
-    $scope.left = "left";
     $scope.main = "main";
     $scope.right = "right";
 });

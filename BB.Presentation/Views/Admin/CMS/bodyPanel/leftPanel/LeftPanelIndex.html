@@ -1,1 +1,12 @@
-﻿{{left}}
+﻿<div>
+    <script type="text/ng-template" id="/Views/Admin/CMS/bodyPanel/leftPanelIndex.html">
+        {{node.Name}} - {{node.Order}} -> <a href="#addPage">Add New Page</a>
+        <ul>
+            <li data-ng-repeat="node in node.Children"
+                data-ng-include="'/Views/Admin/CMS/bodyPanel/leftPanelIndex.html'"></li>
+        </ul>
+    </script>
+    <ul data-ng-controller="treeController">
+        <li data-ng-repeat="node in tree" data-ng-include="'/Views/Admin/CMS/bodyPanel/leftPanelIndex.html'"></li>
+    </ul>
+</div>
