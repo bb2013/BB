@@ -7,13 +7,13 @@ namespace BB.Presentation.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class DbCon : IMigrationMetadata
+    public sealed partial class PageNodes : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(DbCon));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(PageNodes));
         
         string IMigrationMetadata.Id
         {
-            get { return "201704190519151_DbCon"; }
+            get { return "201704211028574_PageNodes"; }
         }
         
         string IMigrationMetadata.Source
